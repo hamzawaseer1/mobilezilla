@@ -3,11 +3,12 @@ import Card from "./Card";
 import sdata from "./sdata";
 import Heading from "./Heading";
 import Footer from "./Footer";
-// import Slider from "./Slider";
+import Nav from "./navbar";
 
 function Allcards() {
   return (
     <>
+      <Nav />
       <Heading />
       <div className="cards">
         {sdata.map((n) => {

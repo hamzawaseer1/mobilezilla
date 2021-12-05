@@ -92,3 +92,33 @@ body {
   -webkit-box-shadow: 0px 0px 68px 9px rgba(0, 0, 0, 0.62) inset;
   -moz-box-shadow: 0px 0px 68px 9px rgba(0, 0, 0, 0.62) inset;
 }
+
+.navigation {
+  /* color: white; */
+  background-color: thistle;
+  height: 70px;
+  display: flex;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+}
+.navigation ul li {
+  padding: 10px 20px;
+  margin: 5px;
+  list-style-type: none;
+  /* background-color: blanchedalmond; */
+  transition: background-color;
+  border-radius: 20px;
+}
+.navigation ul li:hover {
+  /* border-bottom: 4px solid black; */
+  background-color: chocolate;
+  transition-duration: 0.5s;
+}
+.navigation ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #282c34;
+}
